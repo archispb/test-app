@@ -2,8 +2,8 @@
   "name": "test-app",
   "version": "1.0.0",
   "description": "",
-  "homepage": "./",
   "main": "index.js",
+  "homepage": "https://archispb.github.io/test-app/",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
@@ -15,19 +15,17 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "gh-pages": "^2.1.0",
-    "react-hot-loader": "^4.12.10",
-    "react-scripts": "^2.1.8"
+    "gh-pages": "^2.0.1",
+    "react-hot-loader": "^4.3.12",
+    "react-scripts": "^1.1.5"
   },
   "dependencies": {
-    "@vkontakte/icons": "^1.8.0",
-    "@vkontakte/vkui": "^2.23.6",
-    "@vkontakte/vkui-connect": "^1.5.2",
-    "babel-eslint": "^9.0.0",
-    "chalk": "^2.4.2",
-    "core-js": "^3.1.4",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@vkontakte/icons": "^1.2.1",
+    "@vkontakte/vkui": "^2.13.0",
+    "@vkontakte/vkui-connect": "^1.1.2",
+    "core-js": "^2.5.7",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
   }
 }
